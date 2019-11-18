@@ -29,9 +29,78 @@ a:hover {
 .round {
   border-radius: 50%;
 }
+
+p{
+	background-color:#41B3A3;
+	width: 300px;
+	border: 5px dotted #E8A87C;
+	padding: 50px;
+	margin: 20px;
+}
+.p1{
+	position: absolute;
+  left: 100px;
+  top: 150px;
+}
+.p2{
+	position: absolute;
+  right: 100px;
+  top: 150px;
+}
+.p3{
+	position: absolute;
+  left: 200px;
+  top: 150px;
+}
+form {
+	color: white;
+	border-radius: 50%;
+	position: absolute;
+	right: 25px;
+	bottom: 50px;
+	padding: 20px ; 
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+form:active {
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+form:hover{
+	background-color: #C38D9E;
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+	opacity: 0.6;
+	opacity: 1;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 
+	0 17px 50px 0 rgba(0,0,0,0.19);
+}
+li {   
+	list-style: none;
+} 
 </style>
 <body>
-<a href="file:///H:/User%20Interface%20Design/photo.html" class="button photo" >Photos</a>
-<a href="file:///H:/User%20Interface%20Design/iProject.html" class="previous round">&#8249;</a>
+<p>From the age of six i been moving back and fourth from Alabama and Mississippi unitl the age of 15.</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<a href="iProject.html" class="previous round">&#8249;</a>
+<form class="photo" action="photo.html">
+  <input type="image" src="memoji5.png" alt="Submit" width="250" height="250">
+  <li id='Photo'>
+                     <span class='w0'>P</span>
+					 <span class='w1'>H</span>
+					 <span class='w2'>O</span>
+					 <span class='w3'>T</span>
+					 <span class='w4'>O</span>
+              </li>
+</form>
 </body>
 </html>
